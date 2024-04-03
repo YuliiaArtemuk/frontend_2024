@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <title>Library</title>
+</head>
+<body>
+    <header class="header">
+        <h1>.LIBRARY</h1> 
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+             </label>
+        <div class="head-menu"> 
+            <a href="index.html#books" id="link">Книги &dArr;</a>
+            <a href="index.html#authors" id="link">Автори &dArr;</a>
+            <a href="index.html#top" id="link">Топ &dArr;</a> 
+            <a href="index.html#interview" id="link">Інтерв'ю &dArr;</a>
+            <a href="form.html" id="link">Опитування &dArr;</a>  
+        </div>
+    </header>
+
+    <div class="book-list">
+       <h2 id="books">Книги</h2>
+       <h3><i>Оберіть, яку книгу будете читати сьогодні</i></h3>
+       <ul class="books">
+        <li class="book">
+            <h4>Стюарт Тернон</h4>
+            <p>"Сім смертей Евелін Гардкасл"</p>
+            <img src="img/7deaths.jpg" alt="the seven deaths of evelyn hardcastle" width="180" height="300">
+        </li>
+        <li class="book">
+            <h4>Агата Крісті</h4>
+            <p>"І не залишилось жодного" </p>
+            <img src="img/andthenthere.jpg" alt="and then there where none" width="180" height="300">
+        </li>
+        <li class="book">
+            <h4>Ден Браун</h4>
+            <p>"Янголи і демони" </p>
+            <img src="img/anganddem.jpeg" alt="angels and demons" width="270" height="300">
+        </li>
+        <li class="book">
+            <h4>Джон Фаулз</h4>
+            <p>"Колекціонер" </p>
+            <img src="img/collector.jpeg" alt="the collector" width="180" height="300">
+        </li>
+        <li class="book">
+            <h4>Тесс Геррітсен</h4>
+            <p>"Хірург" </p>
+            <img src="img/surgeon.jpg" alt="the surgeon" width="180" height="300">
+        </li>
+        <li class="book">
+            <h4>Ендрю Нейдерман</h4>
+            <p>"Адвокат диявола" </p>
+            <img src="img/demonslawyer.jpg" alt="demonslawyer" width="180" height="300">
+        </li>
+        <li class="book">
+            <h4>Андрій Сем'янків</h4>
+            <p>"Танці з кістками" </p>
+            <img src="img/763abd03_18b1_11ed_8173_0050568ef5e6_e1dc4ce1_c6f1_11ed_8182_00505684ea69.jpg" alt="dance with bones" width="180" height="300">
+        </li>
+       </ul>
+       
+    </div>
+
+    <div class="table">
+        <h2 id="top">Топ книг <ins>цього місяця</ins></h2>
+        <table>
+            <tr>
+                <th >Автор</th>
+                <th>Назва книги</th>
+                <th>К-ть продажей за цей місяць</th>
+                <th>Середня оцінка читачів</th>
+            </tr>
+            <tr>
+                <td>Агата Крісті</td>
+                <td>І не залишилось жодного</td>
+                <td>1490</td>
+                <td>9.8</td>
+            </tr>
+            <tr>
+                <td>Ден Браун</td>
+                <td>Янголи і демони</td>
+                <td>1400</td>
+                <td>9.4</td>
+            </tr>
+            <tr>
+                <td>Стюарт Тернон</td>
+                <td>Сім смертей Евелін Гардкасл</td>
+                <td>1389</td>
+                <td>8.9</td>
+            </tr>
+            <tr>
+                <td>Джон Фаулз</td>
+                <td>Колекціонер</td>
+                <td>1370</td>
+                <td>8.5</td>
+            </tr>
+        </table>
+    </div>
+    <div class="cont">
+        <div class="authors">
+                <h2 id="authors">Автори</h2>
+                <ol class="authors-list">
+                    <li><a href="authors.html#tess" class="author">Тесс Геррітсен</a></li>
+                    <li><a href="authors.html#den" class="author">Ден Браун</a></li>
+                    <li><a href="authors.html#agata" class="author">Агата Крісті</a></li>
+                    <li><a href="authors.html#ill" class="author">Ілларіон Павлюк</a></li>
+                </ol>
+            </div>
+
+        <div class="video">
+            <h2 id="interview">Цікаві інтерв'ю</h2>
+            <div style="text-align: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mNaMsu8zLa8?si=T4ijlE70PvqmW_x6" frameborder="0" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4uOiqkOXKFo" frameborder="0" allowfullscreen></iframe>
+            </div>  
+        </div>
+    </div>          
+    <footer class="footer">
+        <h3>Підпишіться на розсилку корисної інформації нашого сайту</h3>
+        <form name="email" class="form1">
+            <label for="email" class="label-email">Введіть свою е-пошту:</label>
+            <input type="text" name="email" size="20" maxlength="50" value="" class="email-form">
+        </form>
+
+        <address style="font-family: Montserrat; font-weight: 500;font-style: normal; color: rgb(54, 149, 243);">вул. Університетська, 1</address>
+        <a href="tel:+380630000000" style="font-family: Montserrat; font-weight: 500; color:rgb(54, 149, 243);">+380630000000</a> <br>
+        <a href="mailto:uliartemuk@gmail.com" style="font-family: Montserrat; font-weight: 500; color:rgb(54, 149, 243);">uliartemuk@gmail.com</a>
+    </footer>
+</body>
+</html>
